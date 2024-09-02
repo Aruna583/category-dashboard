@@ -1,3 +1,53 @@
+# Packages Installed
+ -create react app installed
+ -React-icons package for icons
+ -Redux package for State management
+ -react-redux for Provide the store to the app
+
+# Components Created
+ -Created the Dashboard container which includes all the components.
+
+ -add widget componenet is created it contains the name and text of inputs and add button which it will add to the respective category.
+
+ -Search Bar is created which searches the widget from the category.
+
+ -At the to Add widget button is created onClicking on it side panel will open which shows the category sections.
+
+ - it was implemented as tab switch functionality on clicking on each tab it will display the respective widgets with checkbox with cheked as true
+
+ - while unselecting from that particular widget will remove from the list and ui will updated.
+
+ -Redux is used for state management for adding and removing the widget.
+
+
+# Steps to Run locally
+
+-Open the github link provided
+-Click on the Code
+-Copy the 'SSH' Code from project in the gihub link
+-In the VS code Terminal type the `git clone ssh code`
+-install the npm  using the command `npm install`
+-start the server `npm start`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

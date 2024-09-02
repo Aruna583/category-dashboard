@@ -1,0 +1,85 @@
+.widget-card{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow-x:hidden
+}
+.category-card{
+    padding-left: 10px;
+    text-align: left;
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    height: 100vh;
+    background-color: #dde6ed;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.button-element{
+    color: darkblue;
+    height: 34px;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+}
+.widget-card-item{
+    background-color: #ffffff;
+    height: 200px;
+    width: 390px;
+    padding: 8px;
+    filter: drop-shadow(0 0 0.75rem lightblue);
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.widget-card-add-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .category-section-items{
+    overflow-y: scroll;
+} */
+
+.category-heading{
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
+.widget-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.widget-text{
+    font-size: 12px;
+}
+
+.card-item-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.delete-icon{
+    background-color: white;
+    color: red;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-icon-align{
+    height: 30px;
+    width: 30px;
+}

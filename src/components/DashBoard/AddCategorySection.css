@@ -1,0 +1,69 @@
+.un-list{
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.side-panel-add{
+    position: fixed;
+    right: -300px;
+    top:0;
+    width: 500px;
+    height: 100%;
+    background-color: #f9f9f9;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.3);
+    transition: right 0.3s ease;
+}
+
+.side-panel-add.opencate{
+    right: 0;
+}
+
+.side-panel-header-add{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #213385;
+    color: white;
+
+}
+
+.section-header{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-self: flex-start;
+    cursor: pointer;
+}
+
+.button-cancel-icon-add{
+    color: white;
+    width: 41px;
+    border-radius: 8px;
+    background-color: #213385;
+    border: none;
+    cursor: pointer;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab{
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: border-bottom 0.3s ease;
+}
+
+.tab.active{
+    border-bottom: 2px solid #007bff
+}
+
+.list-container{
+    font-size: 16px;
+    display: flex;
+}
+
+.wid-naem{
+    padding-left: 20px;
+}
